@@ -1,0 +1,47 @@
+/* Entire Project Setup */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Color */
+:root{
+    --header-color: #0A093D;
+    --primary-color: #217BF4;
+    --paragraph-color: #656464;
+    --normal-color: #2B2B39;
+    --white-color: #FFFFFF;
+    --card-color: #2F2C4A;
+}
+
+/* font-size */
+:root{
+    --header-font-size: 56px;
+    --secondary-header-font-size: 36px;
+    --paragraph-font-size: 16px;
+    --menu-font-size: 14px;
+    --button-font-size: 16px;
+    --header-3-font-size: 18px;
+    --card-header-font-size: 20px;
+    --peson-font-size: 24px;
+    --bottom-menu-font-size: 20px;
+}
+
+/* Normal Button */
+.normal-btn{
+    padding: 24px 42px;
+    border-radius: 14px;
+    background: var(--primary-color);
+    outline: none;
+    border: 1px solid;
+    box-shadow: 0px 7px 22px -6px rgba(33, 123, 244, 0.34);
+    color: var(--white-color);
+}
+
+.normal-btn:hover{
+    background-color: transparent;
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+    box-shadow: none;
+}
