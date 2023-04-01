@@ -444,3 +444,136 @@ color: #217BF4;
 margin-bottom: 10px;
 }
 
+/* Community Section */
+
+#community{
+  background: linear-gradient(0deg, rgba(241, 246, 253, 0) 1.63%, #F1F6FD 20.5%, #F1F6FD 58.57%, #FFFFFF 100%);
+  padding: 60px 0;
+}
+
+#community > .container > h4{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  
+  /* identical to box height, or 100% */
+  text-align: center;
+  
+  color: #217BF4;
+  
+  
+}
+
+#community > .container > h2{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#community > .container > h2 + p{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+
+/* or 175% */
+text-align: center;
+
+color: #656464;
+width: 40%;
+margin: 0 auto 60px;
+}
+
+.card-container{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 44px;
+}
+
+.card-item{
+  padding: 40px;
+  background: #FFFFFF;
+box-shadow: 14px 22px 52px -12px rgba(127, 127, 127, 0.13);
+border-radius: 14px;
+display: flex;
+}
+
+.card-item > div:first-of-type{
+  margin-right: 30px;
+}
+
+.card-item > div:last-of-type > h3{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+  
+  /* identical to box height, or 108% */
+  
+  color: #2F2C4A;
+  margin-bottom: 14px;
+}
+
+.card-item > div:last-of-type > p{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+
+/* or 162% */
+
+color: #656464;
+}
+
+.card-item:first-of-type > div:first-of-type > span{
+  background: linear-gradient(154.49deg, #5CA1FE 6.61%, #217BF4 89.72%);
+box-shadow: 0px 10px 22px -2px rgba(109, 171, 255, 0.36);
+border-radius: 24px;
+padding: 19px 16px;
+color: #ffffff;
+}
+
+.card-item:nth-child(2) > div:first-of-type > span{
+  background: linear-gradient(154.49deg, #FF858A 6.61%, #F04148 89.72%);
+box-shadow: 0px 8px 22px -2px rgba(248, 87, 94, 0.3);
+border-radius: 24px;
+padding: 19px 16px;
+color: #ffffff;
+}
+
+.card-item:nth-child(3) > div:first-of-type > span{
+  background: linear-gradient(154.49deg, #FFD085 6.61%, #FFAF2E 89.72%);
+  box-shadow: 0px 10px 22px -2px rgba(250, 186, 84, 0.3);
+border-radius: 24px;
+padding: 19px 16px;
+color: #ffffff;
+}
+
+.card-item:nth-child(4) > div:first-of-type > span{
+  background: linear-gradient(154.49deg, #5CA1FE 6.61%, #217BF4 89.72%);
+  box-shadow: 0px 10px 22px -2px rgba(109, 171, 255, 0.36);
+border-radius: 24px;
+padding: 19px 16px;
+color: #ffffff;
+}
+
+.card-item:nth-child(5) > div:first-of-type > span{
+  background: linear-gradient(154.49deg, #FF858A 6.61%, #F04148 89.72%);
+  box-shadow: 0px 8px 22px -2px rgba(248, 87, 94, 0.3);
+border-radius: 24px;
+padding: 19px 16px;
+color: #ffffff;
+}
+
+.card-item:nth-child(6) > div:first-of-type > span{
+  background: linear-gradient(154.49deg, #FFD085 6.61%, #FFAF2E 89.72%);
+  box-shadow: 0px 10px 22px -2px rgba(250, 186, 84, 0.3);
+border-radius: 24px;
+padding: 19px 16px;
+color: #ffffff;
+}
+
